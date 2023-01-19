@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+  background-color: black;
+  
 }
 
 .container {
@@ -12,17 +14,18 @@ body {
 /* Video Section */
 
 .video-section {
-  position: relative;
+  margin-left: 40%;
+  margin-top: 20%;
 }
 
 .video-section video {
-  width: 100%;
+  width: 35%;
 }
 
 .video-section .section-content {
   position: absolute;
   top: 200px;
-  width: 100%;
+  width: 25%;
   text-align: center;
   color: #fff;
   left: 0;
@@ -63,7 +66,7 @@ body {
 }
 
 .text-section p {
-  color: #333;
+  color: white;
   font-size: 21px;
   padding: 0 30px;
 }
@@ -82,9 +85,10 @@ body {
 /* Footer */
 
 .footer {
-  padding: 30px;
-  background-color: #eee;
-  font-size: 11px;
+  padding: 50 px;
+  background-color: black;
+  font-size: 32px;
+  color: white;
 }
 
 @media (max-width: 960px) {
